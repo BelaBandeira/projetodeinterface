@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" type="text/css" href="../style.css">
+    <title>beleza_formulario</title>
+</head>
+<body>
+
+ <a href="../index.html" target="_blank">
+  *Acesse a Página principal aqui
+ </a>
+ <h2 id= secao1> </h2>
+
+ <h2 align="center"> 
+    Formulário skincare
+ </h2>
+  <form align="center">
+
+             <p> Nome:<input type="text" name="nome"placeholder="Escreva seu nome" size="20px"/> </p>
+            <p> Telefone<input type="tel" placeholder="00000000000" maxlength= "11"/> </p>
+            <p>Data de nascimento <input type="date"/> </p>
+             <small> *A senha só poderá ter 8 caracteres</small>
+            <p>Senha <input type="password" maxlength="8"/> </p>
+            <p> Email <input type="email"/> </p>
+            <p> Idade <input type="number"/> </p>
+            <small> *Início da rotina skincare</small>
+            <p><input type="month"/> </p>
+            <small>*Escolha seu horário da rotina de skincare da manhã</small>
+            <p> <input type="time"/> </p>
+            <small>*Escolha seu horário da rotina de skincare da noite</small>
+            <p> <input type="time"/></p>
+            <Small>* Aceito receber notificações do site</Small>
+            <p><input type="checkbox"/> </p>
+            <small> *Mande uma foto da sua pele atual (opcional)</small>
+            <p> <input type="file"/> </p>
+       
+            
+    <!--tipos de pele-->
+       <p>
+        Qual o seu tipo de pele?
+       </p>
+       <input type="radio" name="pele"/>Normal
+       <br/>
+       <input type="radio" name="pele"/> Seca
+       <br/>
+       <input type="radio" name="pele"/> Oleosa
+       <br/>
+       <input type="radio" name="pele"/> Mista
+       <br/> 
+
+
+      
+        <p>
+      <form>  Sua pele é sensível?
+       </p>
+       <input type="radio" name=" resposta"/> Sim
+       <br/>
+       <input type="radio" name="resposta"/> Não
+       <br/>
+       <input type="radio" name="pele"/>No momento sim
+       <br/>
+       <br/>
+
+       <!-- tipo alergia-->
+       <p> Possui alguma alergia?
+        <select>
+            <option></option>
+            <option value="sim">Sim</option>
+            <option value="não">Não</option>
+        </select>
+        <br>
+        <h5> *Se sim, cite abaixo quais são:</h5>
+            <textarea rows=" 0.2" cols="20"> </textarea>
+        </p>
+        <!-- onde nos conheceu?-->
+        <br>
+
+        <p> Onde nos conheceu?
+        <select>
+            <option></option>
+            <option value=" TV"> TV</option>
+            <option value="Youtube"> Youtube</option>
+            <option value="Redes sociais">Redes sociais</option>
+            <option value="Google">Google</option>
+            <option value="Outro"> Outro</option>
+        </select> </p>
+        <br>
+          <!-- Fieldset-->
+
+                 <fieldset>
+                    <legend align="center"> Dados Pessoais</legend>
+                    <label>Nome:<input type="text"/> </label>
+                    <br/>
+                    <br/>
+                    <label> CPF:<input type="text"/></label>
+                    <br/>
+                    <br/>
+                    <label>Endereço:<input type="text"/></label>
+                    <br/>
+                 </fieldset>
+                 <br/>
+                 <br/>
+                 <br/>
+
+
+              <p>
+            <input type="checkbox" name="Confirmar"/>
+            Aceito fazer parte da ceita do Skincare
+         </p>
+     
+     <input type="reset"/>
+     <input type="submit"/>
+    </form>
+    <a href="#secao1"> acesse o topo da página</a>
+
+
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(207, 155, 164);
+    border: rgb(204, 123, 135) solid 1px;
+    
+}
+p {
+    color: rgb(56, 21, 21);
+}
+ h1{
+    color: rgb(145, 71, 71);
+ }
+
+ form{
+    color: rgb(139, 67, 67);
+ }
+ h2{
+    color: rgb(139, 67, 67);
+ }
+/* aqui fiz as 3 alteraçoes na pagina index.html e na pagina do formulario (beleza.html)
